@@ -62,70 +62,68 @@ public class AppTestTHBBT {
     }
 
     @Test
-    public void TC1_BBT_EC() {
+    public void TC1_saveStudent() {
         assertEquals(service.saveStudent("0", "Albert", 934), 1);
     }
 
     @Test
-    public void TC2_BBT_EC() {
+    public void TC2_saveStudent() {
         assertEquals(service.saveStudent(null, "Albert", 934), 0);
     }
 
     @Test
-    public void TC3_BBT_EC() {
+    public void TC3_saveStudent() {
         assertEquals(service.saveStudent("0", "Albert", 938), 0);
     }
 
 
     @Test
-    public void TC4_BBT_EC() {
+    public void TC4_saveStudent() {
         assertEquals(service.saveStudent("0", "Albert", 939), 0);
     }
 
     @Test
-    public void TC5_BBT_BVA() {
+    public void TC5_saveStudent() {
         assertEquals(service.saveStudent("0", "Albert", 111), 1);
     }
 
     @Test
-    public void TC6_BBT_BVA() {
+    public void TC6_saveStudent() {
         assertEquals(service.saveStudent("1", "Albert", 109), 0);
     }
 
     @Test
-    public void TC7_BBT_BVA() {
+    public void TC7_saveStudent() {
         assertEquals(service.saveStudent("2", "Albert", 937), 1);
-
     }
 
     @Test
-    public void TC8_BBT_BVA() {
+    public void TC8_saveStudent() {
         assertEquals(service.saveStudent("3", "Albert", 938), 0);
     }
 
     @Test
-    public void TC9_BBT_BVA() {
+    public void TC9_saveStudent() {
         assertEquals(service.saveStudent("4", "Albert", 400), 1);
-
     }
 
     @Test
-    public void TC10_BBT_BVA() {
+    public void TC10_saveStudent() {
         assertEquals(service.saveStudent("5", "Albert", -1), 0);
     }
 
     @Test
-    public void TC11_BBT_BVA() {
+    public void TC11_saveStudent() {
         assertEquals(service.saveStudent("6", "akljklfjsf", 123), 1);
     }
 
     @Test
-    public void TC12_BBT_BVA() {
+    public void TC12_saveStudent() {
         assertEquals(service.saveStudent("7", "", 123), 0);
     }
 
     @Test
-    public void TC13_BBT_BVA() {
+    public void TC13_saveStudent() {
         assertEquals(service.saveStudent("8", null, 124), 0);
     }
 }

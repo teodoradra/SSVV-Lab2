@@ -55,7 +55,7 @@ public class AppTestBBT {
     }
 
     @Test
-    public void testAddStudentFailure() {
+    public void tc_2_testAddStudentFailure() {
         assertEquals(service.saveStudent("2", "Teo", 933), 1);
         assertEquals(service.saveStudent("2", "Teo", 933), 0);
     }
