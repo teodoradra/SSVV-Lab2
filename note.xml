@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entitati>
+    <nota IDStudent="5" IDTema="4">
+        <Nota>10.0</Nota>
+        <SaptamanaPredare>10</SaptamanaPredare>
+        <Feedback>done</Feedback>
+    </nota>
+    <nota IDStudent="2" IDTema="1">
+        <Nota>10.0</Nota>
+        <SaptamanaPredare>7</SaptamanaPredare>
+        <Feedback>564</Feedback>
+    </nota>
+    <nota IDStudent="1" IDTema="1">
+        <Nota>10.0</Nota>
+        <SaptamanaPredare>7</SaptamanaPredare>
+        <Feedback>done</Feedback>
+    </nota>
+    <nota IDStudent="1" IDTema="2">
+        <Nota>7.5</Nota>
+        <SaptamanaPredare>9</SaptamanaPredare>
+        <Feedback>done</Feedback>
+    </nota>
+    <nota IDStudent="6" IDTema="7">
+        <Nota>9.5</Nota>
+        <SaptamanaPredare>4</SaptamanaPredare>
+        <Feedback>dobe</Feedback>
+    </nota>
+    <nota IDStudent="1" IDTema="3">
+        <Nota>1.0</Nota>
+        <SaptamanaPredare>13</SaptamanaPredare>
+        <Feedback>done</Feedback>
+    </nota>
+    <nota IDStudent="6" IDTema="1">
+        <Nota>1.0</Nota>
+        <SaptamanaPredare>7</SaptamanaPredare>
+        <Feedback>25</Feedback>
+    </nota>
+    <nota IDStudent="5" IDTema="1">
+        <Nota>10.0</Nota>
+        <SaptamanaPredare>7</SaptamanaPredare>
+        <Feedback>45</Feedback>
+    </nota>
+    <nota IDStudent="5" IDTema="2">
+        <Nota>7.5</Nota>
+        <SaptamanaPredare>9</SaptamanaPredare>
+        <Feedback>65465</Feedback>
+    </nota>
+    <nota IDStudent="5" IDTema="3">
+        <Nota>7.5</Nota>
+        <SaptamanaPredare>10</SaptamanaPredare>
+        <Feedback>10</Feedback>
+    </nota>
+    <nota IDStudent="6" IDTema="4">
+        <Nota>10.0</Nota>
+        <SaptamanaPredare>10</SaptamanaPredare>
+        <Feedback>45</Feedback>
+    </nota>
+</Entitati>
