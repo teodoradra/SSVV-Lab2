@@ -50,7 +50,7 @@ public class AppTestBBT {
     }
 
     @Test
-    public void testAddStudentSuccess() {
+    public void tc_1_testAddStudentSuccess() {
         assertEquals(service.saveStudent("1", "Diana", 935), 1);
     }
 
