@@ -57,59 +57,59 @@ public class AppTestTHBBT {
 
     @Test
     public void testAddStudentFailure() {
-        assertEquals(service.saveStudent("2", "Roland", 934), 1);
-        assertEquals(service.saveStudent("2", "Roland", 934), 0);
+        assertEquals(service.saveStudent("2", "Teodora", 934), 1);
+        assertEquals(service.saveStudent("2", "Teodora", 934), 0);
     }
 
     @Test
     public void TC1_saveStudent() {
-        assertEquals(service.saveStudent("0", "Albert", 934), 1);
+        assertEquals(service.saveStudent("0", "Teodora", 934), 1);
     }
 
     @Test
     public void TC2_saveStudent() {
-        assertEquals(service.saveStudent(null, "Albert", 934), 0);
+        assertEquals(service.saveStudent(null, "Teodora", 934), 0);
     }
 
     @Test
     public void TC3_saveStudent() {
-        assertEquals(service.saveStudent("0", "Albert", 938), 0);
+        assertEquals(service.saveStudent("0", "Teodora", 938), 0);
     }
 
 
     @Test
     public void TC4_saveStudent() {
-        assertEquals(service.saveStudent("0", "Albert", 939), 0);
+        assertEquals(service.saveStudent("0", "Teodora", 939), 0);
     }
 
     @Test
     public void TC5_saveStudent() {
-        assertEquals(service.saveStudent("0", "Albert", 111), 1);
+        assertEquals(service.saveStudent("0", "Teodora", 111), 1);
     }
 
     @Test
     public void TC6_saveStudent() {
-        assertEquals(service.saveStudent("1", "Albert", 109), 0);
+        assertEquals(service.saveStudent("1", "Teodora", 109), 0);
     }
 
     @Test
     public void TC7_saveStudent() {
-        assertEquals(service.saveStudent("2", "Albert", 937), 1);
+        assertEquals(service.saveStudent("2", "Teodora", 937), 1);
     }
 
     @Test
     public void TC8_saveStudent() {
-        assertEquals(service.saveStudent("3", "Albert", 938), 0);
+        assertEquals(service.saveStudent("3", "Teodora", 938), 0);
     }
 
     @Test
     public void TC9_saveStudent() {
-        assertEquals(service.saveStudent("4", "Albert", 400), 1);
+        assertEquals(service.saveStudent("4", "Teodora", 400), 1);
     }
 
     @Test
     public void TC10_saveStudent() {
-        assertEquals(service.saveStudent("5", "Albert", -1), 0);
+        assertEquals(service.saveStudent("5", "Teodora", -1), 0);
     }
 
     @Test
