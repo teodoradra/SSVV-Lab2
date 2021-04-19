@@ -69,7 +69,7 @@ public class TestBigBang {
 
     @Test
     public void testAddGrade(){
-        assertEquals(service.saveNota("1000", "1000", 9, 3, "good"), -1);
+        assertEquals(service.saveNota("5", "5", 9, 3, "good"), -1);
     }
 
     @Test
