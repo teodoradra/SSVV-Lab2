@@ -57,18 +57,18 @@ public class IncrementalTests {
     }
 
     @Test
-    public void testAddStudent(){
+    public void testAddStudentTD(){
         assertEquals(1, service.saveStudent("gh", "teo", 231));
     }
 
     @Test
-    public void testAddAssignmentAddStudent(){
+    public void testAddAssignmentAddStudentTD(){
         assertEquals(1, service.saveTema("2", "Integrale", 7, 5));
         assertEquals(1, service.saveStudent("2", "Alexandra", 935));
     }
 
     @Test
-    public void testAddAll(){
+    public void testAddAllTD(){
         assertEquals(1, service.saveStudent("3", "Marius", 231));
         assertEquals(1, service.saveTema("3", "best", 8, 5));
         assertEquals(1, service.saveNota("3", "3", 8, 7, "ok"));
